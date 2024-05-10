@@ -1,0 +1,50 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "rdbg",
+            "name": "Debug current file",
+            "request": "launch",
+            "script": "",
+            "askParameters": true
+        },
+        {
+            "type": "rdbg",
+            "name": "Attach rdbg",
+            "request": "attach"
+        },
+        {
+            "type": "ruby_lsp",
+            "request": "launch",
+            "name": "Debug test file",
+            "program": "ruby -Itest "
+        },
+        {
+            "type": "ruby_lsp",
+            "request": "launch",
+            "name": "Debug test file",
+            "program": "ruby -Itest "
+        },
+        {
+            "type": "ruby_lsp",
+            "request": "attach",
+            "name": "Attach to a debuggee"
+        },
+        {
+            "type": "rdbg",
+            "name": "Debug current file with rdbg",
+            "request": "launch",
+            "script": "${file}",
+            "args": [],
+            "askParameters": true
+        },
+        {
+            "type": "rdbg",
+            "name": "Attach with rdbg",
+            "request": "attach"
+        }
+    ]
+}
